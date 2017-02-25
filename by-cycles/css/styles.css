@@ -1,0 +1,64 @@
+
+body{
+    font-family: Open sans, Arial, sans-serif;
+    font-size: 16px;
+}
+.header{
+    padding: 30px;
+    background: rgba(255,255,255,0.9);
+    height: 37px;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.navigation{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+.navigation a{
+    color: #323232;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 19px;
+    transition: all 0.4s;
+}
+.navigation a:hover{
+    color: #3799DB;
+}
+
+.section-hero{
+    height: 650px;
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.section-hero .content{
+    color: white;
+    width: 30%;
+    position: absolute;
+    right: 60px;
+    bottom: 74px;
+    text-align: right;
+}
+.section-hero .content h2{
+    text-transform:uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.section-hero .content h3{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.section-hero .content h4{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+}
