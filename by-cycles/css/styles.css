@@ -68,9 +68,25 @@ body{
     text-align: center;
     margin-top: 18px;
 }
-.section-featured a{
-    background: yellow;
+.section-featured .box{
+    background: black;
+    background-position: center;
+    background-size: cover;
     display:inline-block;
     min-width: 24%;
+    min-height: 220px;
     margin: 0;
+    text-indent: -9999px;
+}
+.section-featured .box-1{
+    background-image: url(../img/spotlight-one.jpg);
+}
+.section-featured .box-2{
+    background-image: url(../img/spotlight-two.jpg);
+}
+.section-featured .box-3{
+    background-image: url(../img/spotlight-three.jpg);
+}
+.section-featured .box-4{
+    background-image: url(../img/spotlight-four.jpg);
 }
