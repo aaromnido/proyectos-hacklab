@@ -64,3 +64,13 @@ body{
     display: inline-block;
     padding: 1rem
 }
+.section-featured {
+    text-align: center;
+    margin-top: 18px;
+}
+.section-featured a{
+    background: yellow;
+    display:inline-block;
+    min-width: 24%;
+    margin: 0;
+}
