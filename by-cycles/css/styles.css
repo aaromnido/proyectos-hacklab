@@ -73,7 +73,7 @@ body{
     background-position: center;
     background-size: cover;
     display:inline-block;
-    min-width: 24%;
+    min-width: 24.7%;
     min-height: 220px;
     margin: 0;
     text-indent: -9999px;
@@ -89,4 +89,15 @@ body{
 }
 .section-featured .box-4{
     background-image: url(../img/spotlight-four.jpg);
+}
+
+.section-bikes{
+    border: 1px solid red;
+}
+.section-bikes .box{
+    border: 1px solid blue;
+    display: inline-block;
+}
+.section-bikes .box footer{
+    border: 1px solid lime;
 }
